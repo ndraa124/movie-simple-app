@@ -1,0 +1,109 @@
+<resources>
+
+    <style name="Theme.SimpleMovie" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryVariant">@color/colorPrimary</item>
+        <item name="colorOnPrimary">@color/white</item>
+
+        <item name="colorSecondary">@color/colorSecondary</item>
+        <item name="colorSecondaryVariant">@color/colorSecondaryVariant</item>
+        <item name="colorOnSecondary">@color/colorSecondary</item>
+
+        <item name="android:statusBarColor">?attr/colorSecondaryVariant</item>
+        <item name="android:windowContentTransitions">true</item>
+    </style>
+
+    <style name="Theme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="Theme.SplashScreenTheme" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/white</item>
+        <item name="windowSplashScreenAnimatedIcon">@mipmap/ic_launcher</item>
+        <item name="postSplashScreenTheme">@style/Theme.SimpleMovie</item>
+    </style>
+
+    <style name="ListCardView">
+        <item name="android:layout_marginBottom">8dp</item>
+        <item name="android:elevation">4dp</item>
+    </style>
+
+    <style name="TextHeading1">
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextHeading1.WithMarginTop" parent="TextHeading1">
+        <item name="android:layout_marginTop">8dp</item>
+    </style>
+
+    <style name="TextDefault">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="TextDefaultBold">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextDefaultSmall">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="TextDefaultSmallBold">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextDefault.WithMarginTop" parent="TextDefault">
+        <item name="android:layout_marginTop">16dp</item>
+    </style>
+
+    <style name="TextDefaultBold.WithMarginTop" parent="TextDefaultBold">
+        <item name="android:layout_marginTop">16dp</item>
+    </style>
+
+    <style name="TextDefault.WithMaxLines" parent="TextDefault.WithMarginTop">
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxLines">2</item>
+    </style>
+
+    <style name="TextDefaultBold.WithMaxLines" parent="TextDefaultBold.WithMarginTop">
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxLines">2</item>
+    </style>
+
+    <style name="Theme.Shape.Circular" parent="">
+        <item name="cornerSize">50%</item>
+    </style>
+
+    <style name="Theme.Shape.RoundedSquare" parent="">
+        <item name="cornerSize">10%</item>
+    </style>
+
+    <style name="Theme.Shape.DiamondCut" parent="">
+        <item name="cornerSize">75dp</item>
+        <item name="cornerFamily">cut</item>
+    </style>
+
+    <style name="Theme.Shape.SpecificCornerCut" parent="">
+        <item name="cornerSizeTopRight">75dp</item>
+        <item name="cornerFamilyTopRight">cut</item>
+        <item name="cornerSizeBottomLeft">75dp</item>
+        <item name="cornerFamilyBottomLeft">cut</item>
+    </style>
+
+    <style name="Theme.Shape.SpecificCornerRounded" parent="">
+        <item name="cornerSizeTopRight">75dp</item>
+        <item name="cornerFamilyTopRight">rounded</item>
+        <item name="cornerSizeBottomLeft">75dp</item>
+        <item name="cornerFamilyBottomLeft">rounded</item>
+    </style>
+</resources>

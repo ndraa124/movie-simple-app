@@ -1,0 +1,15 @@
+<resources>
+
+    <style name="Base.Theme.SimpleMovie" parent="Theme.Material3.Dark.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryVariant">@color/colorPrimary</item>
+        <item name="colorOnPrimary">@color/white</item>
+
+        <item name="colorSecondary">@color/colorSecondary</item>
+        <item name="colorSecondaryVariant">@color/colorSecondaryVariant</item>
+        <item name="colorOnSecondary">@color/colorSecondary</item>
+
+        <item name="android:statusBarColor">?attr/colorSecondaryVariant</item>
+        <item name="android:windowContentTransitions">true</item>
+    </style>
+</resources>

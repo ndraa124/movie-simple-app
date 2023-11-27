@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Movie App</string>
+    <string name="app_title">M o v i e A p p</string>
+    <string name="img_description">Cover Description</string>
+
+    <string name="menu_about">About Page</string>
+
+    <string name="overview">Overview</string>
+    <string name="profile_name">Indra David Pesik</string>
+    <string name="profile_email">indradavidpesik@gmail.com</string>
+    <string name="img_logo">img_logo</string>
+</resources>
